@@ -43,3 +43,12 @@ data "aws_ami" "eks_default" {
     values = ["amazon-eks-node-${var.eks_version}-v*"]
   }
 }
+terraform {
+  cloud {
+    organization = "terraform-roza1"
+
+    workspaces {
+      name = "tfstate"
+    }
+  }
+}
