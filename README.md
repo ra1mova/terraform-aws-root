@@ -21,9 +21,9 @@
 # Usage
 ## To use this module, add the following code to your Terraform configuration:
 
-# hcl
-# Copy code
-# module "aws_root" {
+## hcl
+## Copy code
+## module "aws_root" {
   *source = "github.com/your-repository-url.git"*
 }
 ## Then run terraform init and terraform apply to deploy the AWS infrastructure root module.
