@@ -33,3 +33,6 @@
 
 # License
 ## This module is licensed under the Apache 2.0 License. Please review the LICENSE file for more information.
+## The "workspaces" block specifies the configuration options for the Terraform Cloud workspaces. A workspace is a place where Terraform keeps the state of your infrastructure, as well as any metadata about the infrastructure.
+
+![photo_5418086731665752988_x](https://user-images.githubusercontent.com/100186256/218064906-4c662bc8-f72a-477a-8d25-5ac9fdf33e57.jpg)
