@@ -13,7 +13,7 @@ module "dev-eks" {
   source          = "git::https://github.com/ra1mova/terraform-aws-child.git//eks?ref=main"
   env             = "dev"
   vpc             = module.dev-vpc.vpc_id
-  subnet          = module.dev-vpc.private_subnet_id
+  subnet          = module.dev-vpc.public_subnet_id
   cluster_name    = var.eks_name
   cluster_version = var.eks_version
   # ami_id          = data.aws_ami.eks_default.id
